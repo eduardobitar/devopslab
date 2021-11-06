@@ -9,6 +9,11 @@ csrf = CSRFProtect(app)
 def pagina_inicial():
     return "Laboratório Pipeline DevOps"
 
+@app.route("/soma")
+def soma_valores():
+    x=10+10
+    return "Sua soma de 10+10="+str(x)
+
 @app.route('/bug')                                                                                                                                
 def bad():                                                                                                                                        
     try:                                                                                                                                          
