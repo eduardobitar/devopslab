@@ -27,7 +27,7 @@ deploy:
 
 addons:
   sonarcloud:
-    organization: COLOQUE_A_Organization Key
+    organization: eduardobitar
     token: ${SONAR_TOKEN}
 
 # Defini o script de Teste que deve rodar toda vez que o código for alterado.                                                                                                                            
